@@ -1,0 +1,64 @@
+{
+    "google_analytics": {
+        "enabled": false,
+        "measurement_id": "",
+        "notas": "Ejemplo: G-XXXXXXXXXX"
+    },
+    "google_tag_manager": {
+        "enabled": false,
+        "container_id": "",
+        "notas": "Ejemplo: GTM-XXXXXXX"
+    },
+    "google_search_console": {
+        "enabled": false,
+        "verification_code": "",
+        "notas": "Solo el código, sin las comillas. Ejemplo: abc123xyz"
+    },
+    "meta_pixel": {
+        "enabled": false,
+        "pixel_id": "",
+        "notas": "Solo el número. Ejemplo: 1234567890123456"
+    },
+    "meta_conversions_api": {
+        "enabled": false,
+        "access_token": "",
+        "notas": "Token de acceso de la API de conversiones de Meta"
+    },
+    "google_ads": {
+        "enabled": false,
+        "conversion_id": "",
+        "conversion_label": "",
+        "notas": "Ejemplo ID: AW-123456789 — Label: abcdefgh"
+    },
+    "hotjar": {
+        "enabled": false,
+        "site_id": "",
+        "notas": "Solo el número. Ejemplo: 1234567"
+    },
+    "clarity": {
+        "enabled": false,
+        "project_id": "",
+        "notas": "Microsoft Clarity. Ejemplo: abc12defgh"
+    },
+    "whatsapp_business": {
+        "enabled": false,
+        "phone": "",
+        "default_message": "Hola, me gustaría solicitar una hora de atención",
+        "notas": "Número sin + ni espacios. Ejemplo: 56990418056"
+    },
+    "custom_head": {
+        "enabled": false,
+        "code": "",
+        "notas": "Código HTML/script personalizado que se inyecta en el <head>. Útil para cualquier pixel o herramienta no listada."
+    },
+    "custom_body_start": {
+        "enabled": false,
+        "code": "",
+        "notas": "Código HTML/script que se inyecta justo después del <body>. Ideal para noscript de GTM."
+    },
+    "custom_body_end": {
+        "enabled": false,
+        "code": "",
+        "notas": "Código HTML/script que se inyecta justo antes del </body>. Para scripts de carga diferida."
+    }
+}

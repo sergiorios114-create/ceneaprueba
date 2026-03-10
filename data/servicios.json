@@ -1,0 +1,130 @@
+[
+    {
+        "id": "serv_001",
+        "titulo": "Neurología General",
+        "descripcion": "Evaluación y tratamiento integral de patologías del sistema nervioso central y periférico en pacientes adultos.",
+        "icono": "activity",
+        "destacado": false,
+        "orden": 1
+    },
+    {
+        "id": "serv_002",
+        "titulo": "Neurología Infantil",
+        "descripcion": "Diagnóstico y seguimiento de trastornos neurológicos en niños y adolescentes, desde el recién nacido hasta la adolescencia.",
+        "icono": "smile",
+        "destacado": false,
+        "orden": 2
+    },
+    {
+        "id": "serv_003",
+        "titulo": "Epilepsia y Cirugía de la Epilepsia",
+        "descripcion": "Centro Avanzado de Epilepsia con evaluación prequirúrgica, videoelectroencefalografía y tratamiento médico-quirúrgico integral.",
+        "icono": "zap",
+        "destacado": false,
+        "orden": 3
+    },
+    {
+        "id": "serv_004",
+        "titulo": "Cefaleas y Algias Faciales",
+        "descripcion": "Diagnóstico y manejo de migrañas, cefaleas tensionales, neuralgias del trigémino y otros trastornos dolorosos craneofaciales.",
+        "icono": "clock",
+        "destacado": false,
+        "orden": 4
+    },
+    {
+        "id": "serv_005",
+        "titulo": "Trastornos del Movimiento",
+        "descripcion": "Enfermedad de Parkinson, coreas, distonías, tics y otros trastornos del movimiento con enfoque diagnóstico y terapéutico avanzado.",
+        "icono": "bell",
+        "destacado": false,
+        "orden": 5
+    },
+    {
+        "id": "serv_006",
+        "titulo": "Demencias y Alteraciones Cognitivas",
+        "descripcion": "Enfermedad de Alzheimer, deterioro cognitivo leve y otras demencias, con evaluación neuropsicológica y tratamiento personalizado.",
+        "icono": "refresh-cw",
+        "destacado": false,
+        "orden": 6
+    },
+    {
+        "id": "serv_007",
+        "titulo": "Neurología Vascular",
+        "descripcion": "Accidentes cerebrovasculares, aneurismas cerebrales y patología vascular neurológica con diagnóstico y tratamiento oportuno.",
+        "icono": "heart",
+        "destacado": false,
+        "orden": 7
+    },
+    {
+        "id": "serv_008",
+        "titulo": "Neurología Vascular Intervencional",
+        "descripcion": "Procedimientos mínimamente invasivos de neurointervencionismo para el tratamiento de patología vascular cerebral.",
+        "icono": "sun",
+        "destacado": false,
+        "orden": 8
+    },
+    {
+        "id": "serv_009",
+        "titulo": "Enfermedades Neuromusculares",
+        "descripcion": "Miastenia gravis, síndrome de Guillain-Barré, ELA, atrapamientos nerviosos, radiculopatías y plexitis.",
+        "icono": "users",
+        "destacado": false,
+        "orden": 9
+    },
+    {
+        "id": "serv_010",
+        "titulo": "Enfermedades Desmielinizantes",
+        "descripcion": "Esclerosis múltiple, neuromielitis óptica, encefalomielitis aguda diseminada (ADEM) y patologías desmielinizantes relacionadas.",
+        "icono": "box",
+        "destacado": false,
+        "orden": 10
+    },
+    {
+        "id": "serv_011",
+        "titulo": "Trastornos del Desarrollo y Aprendizaje",
+        "descripcion": "Trastorno del espectro autista (TEA), trastorno por déficit de atención e hiperactividad (TDAH) y otros trastornos del neurodesarrollo.",
+        "icono": "book-open",
+        "destacado": false,
+        "orden": 11
+    },
+    {
+        "id": "serv_012",
+        "titulo": "Trastornos del Sueño",
+        "descripcion": "Insomnio, parasomnias, apnea del sueño y otros trastornos con evaluación polisomnográfica y manejo especializado.",
+        "icono": "moon",
+        "destacado": false,
+        "orden": 12
+    },
+    {
+        "id": "serv_013",
+        "titulo": "Neuroinfectología",
+        "descripcion": "Neurocisticercosis, encefalitis, meningitis y otras infecciones del sistema nervioso central y periférico.",
+        "icono": "shield",
+        "destacado": false,
+        "orden": 13
+    },
+    {
+        "id": "serv_014",
+        "titulo": "Parálisis Cerebral",
+        "descripcion": "Evaluación integral y rehabilitación multidisciplinaria para pacientes con parálisis cerebral en todas las etapas de su vida.",
+        "icono": "clipboard",
+        "destacado": false,
+        "orden": 14
+    },
+    {
+        "id": "serv_015",
+        "titulo": "Neurocirugía",
+        "descripcion": "Tratamiento quirúrgico de patologías del sistema nervioso central y periférico con técnicas avanzadas y mínimamente invasivas.",
+        "icono": "tool",
+        "destacado": false,
+        "orden": 15
+    },
+    {
+        "id": "serv_016",
+        "titulo": "Telemedicina",
+        "descripcion": "Atención neurológica a distancia, online y presencial, con la misma calidad y dedicación que nuestras consultas presenciales.",
+        "icono": "monitor",
+        "destacado": true,
+        "orden": 16
+    }
+]

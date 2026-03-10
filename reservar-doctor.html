@@ -1,0 +1,346 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- SEO Meta Tags -->
+  <meta name="description" content="Agenda tu hora directamente con el especialista de tu preferencia en CENEA. Más de 30 neurólogos y especialistas disponibles en Las Condes, Santiago.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="CENEA Chile">
+  <meta name="theme-color" content="#0d3b2e">
+  <link rel="canonical" href="https://cenea.cl/reservar-doctor.html">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="CENEA — Centro de Especialidades Neurológicas Avanzadas">
+  <meta property="og:title" content="Reservar Hora por Doctor | CENEA">
+  <meta property="og:description" content="Elige y agenda con el neurólogo o especialista de tu preferencia en CENEA, Las Condes, Santiago.">
+  <meta property="og:url" content="https://cenea.cl/reservar-doctor.html">
+  <meta property="og:image" content="https://cenea.cl/imghome/logo-cenea.png">
+  <meta property="og:locale" content="es_CL">
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Agenda por Doctor | CENEA Neurología">
+  <meta name="twitter:description" content="Reserva tu hora con el especialista que prefieras en CENEA, Las Condes.">
+  <meta name="twitter:image" content="https://cenea.cl/imghome/logo-cenea.png">
+  <title>Reservar por Doctor — Cenea</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar scrolled">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <img src="imghome/logo-cenea.png" alt="Cenea">
+      </a>
+      <div class="nav-pills nav-pills--dark">
+        <a href="index.html">Home</a>
+        <a href="quienes-somos.html">Quiénes Somos</a>
+        <a href="equipo-medico.html">Equipo Médico</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="equipo-medico.html" class="nav-pills__cta-mobile">Reservar Hora</a>
+      </div>
+      <a href="equipo-medico.html" class="nav-cta">Reservar Hora</a>
+      <button class="menu-toggle" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <section class="page-header">
+    <div class="page-header-container">
+      <span class="section-label">Reservar Hora</span>
+      <h1 class="page-header-title">Agenda por <em>Doctor</em></h1>
+      <p class="page-header-subtitle">Selecciona directamente al profesional con el que deseas agendar tu consulta.</p>
+    </div>
+  </section>
+
+  <!-- CONTENIDO -->
+  <section class="reservar-content">
+    <div class="reservar-container">
+
+      <!-- Filtros de especialidad -->
+      <div class="rd-filtros" id="rd-filtros-dinamicos">
+        <!-- JS load -->
+      </div>
+
+      <!-- Buscador -->
+      <div class="rd-search" id="rd-search-container" style="display:none;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+          <circle cx="11" cy="11" r="8" />
+          <path d="m21 21-4.35-4.35" />
+        </svg>
+        <input type="text" id="rd-search-input" placeholder="Buscar por nombre...">
+      </div>
+
+      <!-- Lista de doctores -->
+      <div class="rd-list" id="rd-list-dinamico">
+        <!-- JS load -->
+      </div>
+
+      <!-- Sin resultados -->
+      <p class="rd-empty" id="rd-empty-msg" style="display:none;">No se encontraron profesionales con ese criterio.</p>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-top-container">
+        <div class="footer-top-cta">
+          <h3 data-content="footer.top_cta_text">Agenda tu hora con nosotros</h3>
+          <a href="equipo-medico.html" class="footer-cta-btn" data-content="footer.top_cta_btn">Reservar Hora</a>
+        </div>
+        <div class="footer-top-contact">
+          <a data-content-href="footer.top_tel_href" href="tel:+56926436045" class="footer-contact-item footer-contact-item--phone">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="20" height="20">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+            </svg>
+            <span data-content="footer.top_tel">+(569) 2643 6045</span>
+          </a>
+          <a href="mailto:ceneachile@gmail.com" class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="20" height="20">
+              <rect x="2" y="4" width="20" height="16" rx="2" />
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+            </svg>
+            <span data-content="footer.top_email">ceneachile@gmail.com</span>
+          </a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Lo+Fontecilla+101,+Las+Condes,+Santiago,+Chile"
+            target="_blank" rel="noopener noreferrer" class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="20" height="20">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            <span data-content="footer.top_ubicacion_label">Ver Ubicación</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-main">
+      <div class="footer-main-container">
+        <div class="footer-col footer-col--brand">
+          <img src="imghome/logo-cenea.png" alt="Cenea" class="footer-logo">
+          <p data-content="footer.brand_desc">Centro de Especialidades Neurológicas Avanzadas. Acompañamos a nuestros pacientes y su familia en todas las
+            etapas de la enfermedad neurológica.</p>
+          <div class="footer-social">
+            <a data-content-href="footer.social_facebook" href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+              </svg></a>
+            <a data-content-href="footer.social_instagram" href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" width="18" height="18">
+                <rect x="2" y="2" width="20" height="20" rx="5" />
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+              </svg></a>
+            <a data-content-href="footer.social_linkedin" href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect x="2" y="9" width="4" height="12" />
+                <circle cx="4" cy="4" r="2" />
+              </svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+            <li><a href="equipo-medico.html">Equipo Médico</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-content="footer.especialidades_title">Especialidades</h4>
+          <ul>
+            <li><a href="servicios.html" data-content="footer.esp_1">Neurología Adultos</a></li>
+            <li><a href="servicios.html" data-content="footer.esp_2">Neurología Infantil</a></li>
+            <li><a href="servicios.html" data-content="footer.esp_3">Neurocirugía</a></li>
+            <li><a href="servicios.html" data-content="footer.esp_4">Epilepsia</a></li>
+            <li><a href="servicios.html" data-content="footer.esp_5">Trastornos del Sueño</a></li>
+            <li><a href="servicios.html" data-content="footer.esp_6">Enfermedad de Parkinson</a></li>
+          </ul>
+        </div>
+        <div class="footer-col footer-col--media">
+          <h4 data-content="footer.contacto_title">Contacto</h4>
+          <p data-content="footer.contacto_direccion">Lo Fontecilla 101, Torre A, Of. 1006<br>Las Condes, Santiago de Chile</p>
+          <p class="footer-telefonos"><a href="tel:+56926436045"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="13" height="13"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg> +(569) 2643 6045</a><a href="https://wa.me/56990418056" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" width="13" height="13"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg> +56 9 9041 8056</a></p>
+          <div class="footer-img">
+            <img src="imghome/neuroinfantil_400x600.jpg" alt="Neurología Infantil - Cenea">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-bottom-container">
+        <p><span data-content="footer.bottom_copy">© 2025 CENEA — Todos los Derechos Reservados</span> | <a href="admin/"
+            style="color: inherit; text-decoration: none; font-size: 0.8em; opacity: 0.7;">Admin</a></p>
+        <div class="footer-payment">
+          <span>Medios de pago:</span>
+          <img src="imghome/medio-de-pago.png" alt="Medios de pago aceptados">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <button class="back-to-top" aria-label="Volver arriba">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M18 15l-6-6-6 6" />
+    </svg>
+  </button>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', async () => {
+      try {
+        const [catRes, perfRes] = await Promise.all([
+          fetch('data/categorias.json'),
+          fetch('data/perfiles.json')
+        ]);
+        const categorias = await catRes.json();
+        const perfiles = await perfRes.json();
+
+        // Build Filtros
+        const filtrosContainer = document.getElementById('rd-filtros-dinamicos');
+        if (filtrosContainer) {
+          filtrosContainer.innerHTML = '<button class="equipo-filtro active" data-filter="todos">Todas</button>';
+          categorias.forEach(cat => {
+            filtrosContainer.innerHTML += `<button class="equipo-filtro" data-filter="${cat.id}">${cat.nombre}</button>`;
+          });
+        }
+
+        // Build List
+        const listContainer = document.getElementById('rd-list-dinamico');
+        if (listContainer) {
+          listContainer.innerHTML = '';
+
+          // Sort perfiles alphabetically by name
+          perfiles.sort((a, b) => a.nombre.localeCompare(b.nombre));
+
+          perfiles.forEach(p => {
+            let showRow = false;
+            let linksHtml = '';
+
+            // We only show doctors that have at least one valid appointment link
+            const hasOnline = p.link_online && p.link_online !== '#';
+            const hasPresencial = p.link_presencial && p.link_presencial !== '#';
+
+            if (hasOnline || hasPresencial) {
+              showRow = true;
+              // Prepare right side links
+              if (hasOnline) {
+                linksHtml += `<a href="${p.link_online}" class="doc-card__cta" style="padding: 6px 14px; font-size: 0.85rem; width:auto;">Online</a>`;
+              }
+              if (hasPresencial) {
+                linksHtml += `<a href="${p.link_presencial}" class="doc-card__cta doc-card__cta--secondary" style="padding: 6px 14px; font-size: 0.85rem; border: 1px solid #004d40; color: #004d40; background: transparent; width:auto;">Presencial</a>`;
+              }
+            }
+
+            if (!showRow) return;
+
+            const rowHtml = `
+                <div class="rd-row" style="cursor:default; align-items:center;" data-category="${p.categoria}" data-name="${p.nombre.toLowerCase()}">
+                  <div class="rd-row__info">
+                    <h3 class="rd-row__name">${p.nombre}</h3>
+                    <span class="rd-row__role">${p.especialidad}</span>
+                  </div>
+                  <div class="rd-row__links" style="display:flex; gap:10px; margin-left:auto;">
+                    ${linksHtml}
+                  </div>
+                </div>
+                `;
+            listContainer.innerHTML += rowHtml;
+          });
+
+          // Show search only if there is data
+          if (perfiles.length > 0) {
+            document.getElementById('rd-search-container').style.display = 'flex';
+          }
+        }
+
+        // --- Filter & Search Logic ---
+        const filtros = document.querySelectorAll('.equipo-filtro');
+        const searchInput = document.getElementById('rd-search-input');
+        const emptyMsg = document.getElementById('rd-empty-msg');
+
+        let currentFilter = 'todos';
+        let currentSearch = '';
+
+        function filterRows() {
+          const rows = document.querySelectorAll('.rd-row');
+          let visibleCount = 0;
+          rows.forEach(row => {
+            const cat = row.getAttribute('data-category');
+            const name = row.getAttribute('data-name');
+            const matchesFilter = currentFilter === 'todos' || cat === currentFilter;
+            const matchesSearch = name.includes(currentSearch);
+
+            if (matchesFilter && matchesSearch) {
+              row.style.display = 'flex';
+              visibleCount++;
+            } else {
+              row.style.display = 'none';
+            }
+          });
+
+          if (visibleCount === 0) {
+            emptyMsg.style.display = 'block';
+          } else {
+            emptyMsg.style.display = 'none';
+          }
+        }
+
+        if (filtros.length) {
+          filtros.forEach(btn => {
+            btn.addEventListener('click', () => {
+              filtros.forEach(b => b.classList.remove('active'));
+              btn.classList.add('active');
+              currentFilter = btn.getAttribute('data-filter');
+              filterRows();
+            });
+          });
+        }
+
+        if (searchInput) {
+          searchInput.addEventListener('input', (e) => {
+            currentSearch = e.target.value.toLowerCase();
+            filterRows();
+          });
+        }
+
+        // Initial setup
+        filterRows();
+
+        // Initialize GSAP anims for this list
+        gsap.set('.rd-row', { opacity: 0, y: 15 });
+        ScrollTrigger.batch('.rd-row', {
+          start: 'top 95%',
+          once: true,
+          batchMax: 5,
+          onEnter: (batch) => {
+            gsap.to(batch, { opacity: 1, y: 0, stagger: 0.05, duration: 0.4, ease: 'power2.out' });
+          }
+        });
+
+      } catch (e) {
+        console.error('Error loading doctors data:', e);
+      }
+    });
+  </script>
+  <script src="js/integraciones-loader.js"></script>
+  <script src="js/seo-injector.js"></script>
+</body>
+
+</html>

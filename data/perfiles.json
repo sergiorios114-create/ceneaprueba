@@ -1,0 +1,356 @@
+[
+    {
+        "id": "1",
+        "nombre": "Dra. Victoría Renner P.",
+        "especialidad": "Neuróloga Adultos",
+        "bio": "<p>Neuróloga de adultos con formación en inmunología y trastornos cognitivos. Su práctica clínica se orienta a la neurología general, demencias y trastornos neuroconductuales en adultos.<\/p><p><\/p>",
+        "categoria": [
+            "neurologos"
+        ],
+        "telemedicina": false,
+        "link_reserva": "https:\/\/agendamiento.reservo.cl\/makereserva\/agenda\/D08sWPu0x0YBcX2w4W31eZL2z9527Q",
+        "imagen": "img\/doctores\/dra-renner.jpg"
+    },
+    {
+        "id": "2",
+        "nombre": "Dr. Luis Gutiérrez P.",
+        "especialidad": "Neurólogo Adultos",
+        "bio": "<p>Neurólogo de adultos con subespecialidad en enfermedades neuromusculares y estudios electromiográficos. Se desempeña en\\ patología neurológica general y evaluación neurofisiológica.<\/p>",
+        "categoria": [
+            "neurologos",
+            "telemedicina"
+        ],
+        "telemedicina": true,
+        "link_reserva": "https:\/\/agendamiento.reservo.cl\/makereserva\/agenda\/Q0p9IJy0f0E6Ap8f4221kwh2v9N2kS",
+        "imagen": "img\/doctores\/dr-gutierrez.jpg"
+    },
+    {
+        "id": "3",
+        "nombre": "Dra. Maríanne Kägi",
+        "especialidad": "Neuróloga Adultos",
+        "bio": "<p>Neuróloga con subespecialidad en esclerosis múltiple y neuroinmunología. Atiende neurología general y trastornos del movimiento en adultos.<\/p>",
+        "categoria": [
+            "neurologos"
+        ],
+        "telemedicina": false,
+        "link_reserva": "https:\/\/agendamiento.reservo.cl\/makereserva\/agenda\/a05M4s90L0DPd0544S31sc32D042PY",
+        "imagen": "img\/doctores\/dra-kagi.jpg"
+    },
+    {
+        "id": "4",
+        "nombre": "Dra. Giesela Hornung",
+        "especialidad": "Neuróloga Adultos",
+        "bio": "<p>Neuróloga con subespecialización en enfermedades desmielinizantes. Su práctica se centra en esclerosis múltiple y neurología general del adulto.<\/p>",
+        "categoria": [
+            "neurologos",
+            "telemedicina"
+        ],
+        "telemedicina": true,
+        "link_reserva": "https:\/\/agendamiento.reservo.cl\/makereserva\/agenda\/I08vJuF0m05q0w1v43612372H6K2fV",
+        "imagen": "img\/doctores\/dra-hornung.jpg"
+    },
+    {
+        "id": "5",
+        "nombre": "Dr. Manuel Campos P.",
+        "especialidad": "Neurocirujano",
+        "bio": "<p>Neurocirujano con formación doctoral internacional. Su actividad clínica se orienta a epilepsia, patología tumoral cerebral y dolor de origen neuroquirúrgico.<\/p>",
+        "categoria": [
+            "neurologos"
+        ],
+        "telemedicina": false,
+        "link_reserva": "https:\/\/agendamiento.reservo.cl\/makereserva\/agenda\/R0SNg4W0G0mYxZ5J4H61qXJ2L1V2Tx",
+        "imagen": "img\/doctores\/dr-campos.jpg"
+    },
+    {
+        "id": "6",
+        "nombre": "Dra. Jacqueline Scherpenisse",
+        "especialidad": "Neuróloga Adultos",
+        "bio": "<p>Neuróloga con subespecialidad en enfermedades desmielinizantes. Atiende esclerosis múltiple y patología neurológica general del adulto.<\/p>",
+        "categoria": [
+            "neurologos",
+            "telemedicina"
+        ],
+        "telemedicina": true,
+        "link_reserva": "https:\/\/agendamiento.reservo.cl\/makereserva\/agenda\/P07pr7n0O0wuHi254V21bZ8284J2sS",
+        "imagen": "img\/doctores\/dra-scherpenisse.jpg"
+    },
+    {
+        "id": "7",
+        "nombre": "Dra. Vivian Wanner",
+        "especialidad": "Neuróloga Adultos",
+        "bio": "<p>Neuróloga con subespecialización en trastornos del sueño y polisomnografía. Su práctica se enfoca en el diagnóstico y tratamiento de patologías del sueño.<\/p>",
+        "categoria": [
+            "neurologos"
+        ],
+        "telemedicina": false,
+        "link_reserva": "https:\/\/agendamiento.reservo.cl\/makereserva\/agenda\/w0Pbs1M0J0V70e5G4321FsE2w7T2et",
+        "imagen": "img\/doctores\/dra-wanner.jpeg"
+    },
+    {
+        "id": "8",
+        "nombre": "Dr. Pablo González",
+        "especialidad": "Neurólogo Adultos",
+        "bio": "<p>Neurólogo con subespecialidad en epilepsia y electroencefalografía. Atiende epilepsia y\r\nneurología general del adulto.<\/p>",
+        "categoria": [
+            "neurologos",
+            "telemedicina"
+        ],
+        "telemedicina": true,
+        "link_reserva": "https:\/\/agendamiento.reservo.cl\/makereserva\/agenda\/N0T1bmK0f0bUW17F4601VfY2W4d25q",
+        "imagen": "img\/doctores\/dr-gonzalez.jpg"
+    },
+    {
+        "id": "9",
+        "nombre": "Dr. Luis Pedraza",
+        "especialidad": "Neurólogo Adultos",
+        "bio": "<p>Neurólogo con subespecialidad en neurofisiología. Su práctica incluye neurología general y patología neuromuscular.<\/p>",
+        "categoria": [
+            "neurologos"
+        ],
+        "telemedicina": false,
+        "link_reserva": "https:\/\/agendamiento.reservo.cl\/makereserva\/agenda\/C0q34fD0T0rNTL5H4421Gyf2Z0H2Op",
+        "imagen": "img\/doctores\/dr-pedraza.jpg"
+    },
+    {
+        "id": "10",
+        "nombre": "Dr. Oscar Loureiro",
+        "especialidad": "Neurólogo Adultos",
+        "bio": "<p>Profesional con amplia trayectoria en el campo de la neurociencia y la salud integral. Su enfoque combina la excelencia clínica con un profundo compromiso con el bienestar de cada paciente y su entorno familiar.<\/p>",
+        "categoria": [
+            "neurologos"
+        ],
+        "telemedicina": false,
+        "link_reserva": "https:\/\/www.medilink.com\/",
+        "imagen": "img\/doctores\/dr-loureiro.jpg"
+    },
+    {
+        "id": "11",
+        "nombre": "Dra. Sofía González",
+        "especialidad": "Neuróloga Adultos",
+        "bio": "<p>Neuróloga con interés en neuroinmunología y patologías mediadas por anticuerpos. Atiende neurología general del adulto. Realiza consultas en inglés.<\/p>",
+        "categoria": [
+            "neurologos",
+            "telemedicina"
+        ],
+        "telemedicina": true,
+        "link_reserva": "https:\/\/agendamiento.reservo.cl\/makereserva\/agenda\/d06TFU30N0trqU6W4V011LT2x1L2SE",
+        "imagen": "img\/doctores\/dra-gonzalez.jpg"
+    },
+    {
+        "id": "12",
+        "nombre": "Dr. Fernando Hansen",
+        "especialidad": "Neurólogo Adultos",
+        "bio": "<p>Neurólogo con interés en deterioro cognitivo y rehabilitación neuropsicológica. Atiende también cefaleas de baja y mediana complejidad.<\/p>",
+        "categoria": [
+            "neurologos"
+        ],
+        "telemedicina": false,
+        "link_reserva": "https:\/\/agendamiento.reservo.cl\/makereserva\/agenda\/X0N20mu0x0C5V04P4Y41RKD2C1N2mq",
+        "imagen": "img\/doctores\/dr-hansen.jpg"
+    },
+    {
+        "id": "13",
+        "nombre": "Dra. Violeta Díaz",
+        "especialidad": "Neuróloga Adultos",
+        "bio": "<p>Neuróloga con trayectoria en patología cerebrovascular, esclerosis múltiple y cefaleas.<\/p>",
+        "categoria": [
+            "neurologos"
+        ],
+        "telemedicina": false,
+        "link_reserva": "https:\/\/agendamiento.reservo.cl\/makereserva\/agenda\/k0KOMhy0T03GJ23Y4C21kND2a1x2Uv",
+        "imagen": "img\/doctores\/violeta-diaz.gif"
+    },
+    {
+        "id": "14",
+        "nombre": "Dr. Pablo Rogel",
+        "especialidad": "Psiquiatra Adultos",
+        "bio": "<p>Profesional con amplia trayectoria en el campo de la neurociencia y la salud integral. Su enfoque combina la excelencia clínica con un profundo compromiso con el bienestar de cada paciente y su entorno familiar.<\/p>",
+        "categoria": [
+            "neurologos"
+        ],
+        "telemedicina": false,
+        "link_reserva": "https:\/\/www.medilink.com\/",
+        "imagen": "img\/doctores\/pablo-rogel.png"
+    },
+    {
+        "id": "16",
+        "nombre": "Dra. Maritza Velasco",
+        "especialidad": "Anestesióloga",
+        "bio": "<p>Anestesióloga con subespecialidad en medicina del dolor y cuidados paliativos. Su práctica se orienta al manejo del dolor crónico y oncológico.<\/p>",
+        "categoria": [
+            "especialistas"
+        ],
+        "telemedicina": false,
+        "link_reserva": "https:\/\/agendamiento.reservo.cl\/makereserva\/agenda\/Z03h12a0G0R62x2g4l11601220M2cp",
+        "imagen": "img\/doctores\/placeholder.jpg"
+    },
+    {
+        "id": "17",
+        "nombre": "Dra. Andrea Schlatter",
+        "especialidad": "Neuróloga Infantil",
+        "bio": "<p>Neuróloga infantil con subespecialización en neuroinmunología pediátrica. Atiende patología neurológica infanto-juvenil.<\/p>",
+        "categoria": [
+            "neuropediatras"
+        ],
+        "telemedicina": false,
+        "link_reserva": "https:\/\/agendamiento.reservo.cl\/makereserva\/agenda\/B01K0Au0701EVg2h4r61y282R2f2QP",
+        "imagen": "img\/doctores\/dra-schlatter.jpg"
+    },
+    {
+        "id": "18",
+        "nombre": "Dra. María Francisca López",
+        "especialidad": "Neuróloga Infantil",
+        "bio": "<p>Neuróloga infantil con especialización en epilepsia y cirugía de epilepsia. Atiende trastornos paroxísticos y del neurodesarrollo.<\/p>",
+        "categoria": [
+            "neuropediatras"
+        ],
+        "telemedicina": false,
+        "link_reserva": "https:\/\/agendamiento.reservo.cl\/makereserva\/agenda\/n0hFgQV0q02utK5W4n61KH524212Ld",
+        "imagen": "img\/doctores\/dra-lopez.jpg"
+    },
+    {
+        "id": "19",
+        "nombre": "Dra. Carolina Álvarez",
+        "especialidad": "Neuróloga Infantil",
+        "bio": "<p>Neuropediatra con subespecialidad en epilepsia y electroencefalografía. Atiende epilepsia infantil y trastornos neurológicos del desarrollo.<\/p>",
+        "categoria": [
+            "neuropediatras"
+        ],
+        "telemedicina": false,
+        "link_reserva": "https:\/\/agendamiento.reservo.cl\/makereserva\/agenda\/J0mtqzp0h0H1ss7R4h01yT22q8v2l2",
+        "imagen": "img\/doctores\/dra-alvarez.jpg"
+    },
+    {
+        "id": "20",
+        "nombre": "Fn. Silvia Neumann",
+        "especialidad": "Fonoaudióloga",
+        "bio": "<p>Neuróloga con interés en neuroinmunología y patologías mediadas por anticuerpos. Atiende neurología general del adulto. Realiza consultas en inglés.<\/p>",
+        "categoria": [
+            "terapeutas",
+            "telemedicina"
+        ],
+        "telemedicina": true,
+        "link_reserva": "https:\/\/agendamiento.reservo.cl\/makereserva\/agenda\/J0u3B460G0xcNX3l4W01gDK2o1B2fw",
+        "imagen": "img\/doctores\/silvia-neumann.jpg"
+    },
+    {
+        "id": "21",
+        "nombre": "T.O. Sonia Allende",
+        "especialidad": "Terapeuta Ocupacional",
+        "bio": "<p>Terapeuta ocupacional con especialización en salud mental y desempeño ocupacional en adolescentes y adultos.<\/p>",
+        "categoria": [
+            "terapeutas"
+        ],
+        "telemedicina": false,
+        "link_reserva": "https:\/\/agendamiento.reservo.cl\/makereserva\/agenda\/b0MlHFT0S0siFZ5s4031OQ8217a2wN",
+        "imagen": "img\/doctores\/sonia-allende.jpg"
+    },
+    {
+        "id": "22",
+        "nombre": "Psicoped. Irene González",
+        "especialidad": "Psicopedagoga",
+        "bio": "<p>Psicopedagoga especializada en trastornos específicos del aprendizaje y evaluación psicoeducativa.<\/p>",
+        "categoria": [
+            "terapeutas"
+        ],
+        "telemedicina": false,
+        "link_reserva": "https:\/\/agendamiento.reservo.cl\/makereserva\/agenda\/10PfQW30t03CEt614V41plN2E1O2r2",
+        "imagen": "img\/doctores\/irene-gonzalez.jpg"
+    },
+    {
+        "id": "23",
+        "nombre": "Ps. Carolina Vásquez",
+        "especialidad": "Psicóloga",
+        "bio": "<p>Psicóloga con especialización en neuropsicología clínica y terapia cognitivo-conductual.<\/p>",
+        "categoria": [
+            "terapeutas"
+        ],
+        "telemedicina": false,
+        "link_reserva": "https:\/\/agendamiento.reservo.cl\/makereserva\/agenda\/y0t0eSv0p0fczN5a4011qA82U9b2y0",
+        "imagen": "img\/doctores\/carolina-vasquez.jpg"
+    },
+    {
+        "id": "24",
+        "nombre": "Ps. Yasna Ruiz",
+        "especialidad": "Psicóloga",
+        "bio": "<p>Profesional con amplia trayectoria en el campo de la neurociencia y la salud integral. Su enfoque combina la excelencia clínica con un profundo compromiso con el bienestar de cada paciente y su entorno familiar.<\/p>",
+        "categoria": [
+            "terapeutas"
+        ],
+        "telemedicina": false,
+        "link_reserva": "https:\/\/www.medilink.com\/",
+        "imagen": "img\/doctores\/yasna-ruiz.webp"
+    },
+    {
+        "id": "25",
+        "nombre": "Ps. Bárbara Gajardo",
+        "especialidad": "NeuroPsicóloga",
+        "bio": "<p>Psicóloga especializada en neuropsicología clínica y rehabilitación cognitiva.<\/p>",
+        "categoria": [
+            "terapeutas"
+        ],
+        "telemedicina": false,
+        "link_reserva": "https:\/\/agendamiento.reservo.cl\/makereserva\/agenda\/30dphHO0O0EJK38A4D71QpH2A002RL",
+        "imagen": "img\/doctores\/barbara-gajardo.jpg"
+    },
+    {
+        "id": "26",
+        "nombre": "Ps. María Rhode Durán",
+        "especialidad": "Psicóloga",
+        "bio": "<p>Doctora en Psicología con experiencia en psicología clínica de adultos.<\/p>",
+        "categoria": [
+            "terapeutas"
+        ],
+        "telemedicina": false,
+        "link_reserva": "https:\/\/agendamiento.reservo.cl\/makereserva\/agenda\/x0oISsC020ZfLf7z4R01sct2p022k4",
+        "imagen": "img\/doctores\/maria-rhode-duran.jpg"
+    },
+    {
+        "id": "27",
+        "nombre": "Ps. Rodrigo Vera",
+        "especialidad": "Psicólogo",
+        "bio": "<p>Profesional con amplia trayectoria en el campo de la neurociencia y la salud integral. Su enfoque combina la excelencia clínica con un profundo compromiso con el bienestar de cada paciente y su entorno familiar.<\/p>",
+        "categoria": [
+            "terapeutas"
+        ],
+        "telemedicina": false,
+        "link_reserva": "https:\/\/www.medilink.com\/",
+        "imagen": "img\/doctores\/rodrigo-vera.png"
+    },
+    {
+        "id": "28",
+        "nombre": "Ps. Francisca Quirós Cruz",
+        "especialidad": "Psicóloga Infanto-juvenil",
+        "bio": "<p>Psicóloga infanto-juvenil y de adultos jóvenes, con enfoque en trastornos del ánimo y del desarrollo.<\/p>",
+        "categoria": [
+            "terapeutas"
+        ],
+        "telemedicina": false,
+        "link_reserva": "https:\/\/agendamiento.reservo.cl\/makereserva\/agenda\/w09Pcj90H0BKkN7j4f91h4C2C8b2bF",
+        "imagen": "img\/doctores\/francisca-quiros.png"
+    },
+    {
+        "id": "29",
+        "nombre": "T.O. Diego Rosas",
+        "especialidad": "Terapeuta Ocupacional",
+        "bio": "<p>Pendiente <\/p>",
+        "categoria": [
+            "terapeutas"
+        ],
+        "telemedicina": false,
+        "link_reserva": "https:\/\/www.medilink.com\/",
+        "imagen": "img\/doctores\/diego-rosas.png"
+    },
+    {
+        "id": "30",
+        "nombre": "Ps. Maritza Sáez",
+        "especialidad": "Psicóloga Adultos",
+        "bio": "<p>Profesional con amplia trayectoria en el campo de la neurociencia y la salud integral. Su enfoque combina la excelencia clínica con un profundo compromiso con el bienestar de cada paciente y su entorno familiar.<\/p>",
+        "categoria": [
+            "terapeutas"
+        ],
+        "telemedicina": false,
+        "link_reserva": "https:\/\/www.medilink.com\/",
+        "imagen": "img\/doctores\/maritza-saez.png"
+    }
+]

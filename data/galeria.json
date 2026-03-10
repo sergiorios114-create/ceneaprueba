@@ -1,0 +1,40 @@
+{
+    "instalaciones": [
+        {
+            "id": "inst_001",
+            "src": "img/quienes-somos/instalaciones/Recepcion.jpg",
+            "alt": "Recepción Cenea",
+            "orden": 1
+        },
+        {
+            "id": "inst_002",
+            "src": "img/quienes-somos/instalaciones/Sala_espera_pediatria2.jpg",
+            "alt": "Sala de espera pediátrica",
+            "orden": 2
+        },
+        {
+            "id": "inst_003",
+            "src": "img/quienes-somos/instalaciones/Caludia-1536x1193.jpg",
+            "alt": "Consulta médica Cenea",
+            "orden": 3
+        },
+        {
+            "id": "inst_004",
+            "src": "img/quienes-somos/instalaciones/WhatsApp-Image-2023-02-13-at-14.46.35-11.jpeg",
+            "alt": "Instalaciones Cenea",
+            "orden": 4
+        },
+        {
+            "id": "inst_005",
+            "src": "img/quienes-somos/instalaciones/WhatsApp-Image-2023-02-13-at-14.46.35-14.jpeg",
+            "alt": "Interior Cenea",
+            "orden": 5
+        },
+        {
+            "id": "inst_006",
+            "src": "img/quienes-somos/instalaciones/WhatsApp-Image-2023-02-13-at-14.46.35-16.jpeg",
+            "alt": "Espacio Cenea",
+            "orden": 6
+        }
+    ]
+}

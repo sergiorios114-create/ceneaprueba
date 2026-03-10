@@ -1,0 +1,380 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- SEO Meta Tags -->
+  <meta name="description" content="16 especialidades neurológicas: Neurología General, Infantil, Epilepsia, Cefáleas, Parkinson, Demencias, Neurocirugía, Telemedicina y más. CENEA, Las Condes.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="CENEA Chile">
+  <meta name="theme-color" content="#0d3b2e">
+  <link rel="canonical" href="https://cenea.cl/servicios.html">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="CENEA — Centro de Especialidades Neurológicas Avanzadas">
+  <meta property="og:title" content="Servicios Neurológicos | CENEA">
+  <meta property="og:description" content="16 especialidades neurológicas: Neurología, Epilepsia, Cefáleas, Parkinson, Telemedicina y más en Las Condes, Santiago.">
+  <meta property="og:url" content="https://cenea.cl/servicios.html">
+  <meta property="og:image" content="https://cenea.cl/imghome/EEG-scaled.jpg">
+  <meta property="og:locale" content="es_CL">
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Servicios | CENEA Neurología Las Condes">
+  <meta name="twitter:description" content="16 especialidades neurológicas en CENEA Las Condes: neurología adultos, infantil, epilepsia, Parkinson, telemedicina y más.">
+  <meta name="twitter:image" content="https://cenea.cl/imghome/EEG-scaled.jpg">
+  <title>Servicios — Cenea</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar scrolled">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <img src="imghome/logo-cenea.png" alt="Cenea">
+      </a>
+      <div class="nav-pills nav-pills--dark">
+        <a href="index.html">Home</a>
+        <a href="quienes-somos.html">Quiénes Somos</a>
+        <a href="equipo-medico.html">Equipo Médico</a>
+        <a href="servicios.html" class="active">Servicios</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="equipo-medico.html" class="nav-pills__cta-mobile">Reservar Hora</a>
+      </div>
+      <a href="equipo-medico.html" class="nav-cta">Reservar Hora</a>
+      <button class="menu-toggle" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <section class="page-header">
+    <div class="page-header-container">
+      <span class="section-label" data-content="servicios.header_label">Servicios</span>
+      <h1 class="page-header-title" data-content="servicios.header_title">Nuestras <em>Especialidades</em></h1>
+      <p class="page-header-subtitle" data-content="servicios.header_subtitle">Conoce nuestras áreas de atención y encuentra la especialidad que necesitas. Te orientamos para que elijas al profesional indicado.</p>
+      <a href="#orientacion" class="page-header-help">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="16" height="16"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        <span data-content="servicios.header_help">¿No sabes qué especialidad necesitas? Te orientamos</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- SERVICIOS GRID — cargado dinámicamente desde data/servicios.json -->
+  <section class="servicios">
+    <div class="servicios-container">
+      <div class="servicios-grid" id="servicios-grid">
+        <!-- Las tarjetas se inyectan por JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCEDIMIENTO TELEMEDICINA ONLINE -->
+  <section class="telemedicina">
+    <div class="telemedicina-container">
+      <div class="telemedicina-header">
+        <span class="section-label" data-content="servicios.pasos_label">¿Cómo agendar?</span>
+        <h2 class="telemedicina-title" data-content="servicios.pasos_title">Agenda tu hora en <em>4 simples pasos</em></h2>
+        <p class="telemedicina-subtitle" data-content="servicios.pasos_subtitle">Ya sea que sepas con quién atenderte o necesites orientación, te guiamos en el proceso.</p>
+      </div>
+      <div class="telemedicina-steps">
+
+        <div class="tele-step">
+          <div class="tele-step-number" data-content="servicios.paso1_num">01</div>
+          <div class="tele-step-content">
+            <h3 data-content="servicios.paso1_title">Identifica tu especialista</h3>
+            <p data-content="servicios.paso1_desc">Si ya sabes con quién agendar, ingresa a nuestro <a href="equipo-medico.html" style="color: var(--teal); font-weight: 500;">Equipo Médico</a>. Si necesitas ayuda, <a href="#orientacion" style="color: var(--teal); font-weight: 500;">contáctanos</a> y te orientamos.</p>
+          </div>
+        </div>
+
+        <div class="tele-step-connector">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="20" height="20">
+            <path d="m9 18 6-6-6-6" />
+          </svg>
+        </div>
+
+        <div class="tele-step">
+          <div class="tele-step-number" data-content="servicios.paso2_num">02</div>
+          <div class="tele-step-content">
+            <h3 data-content="servicios.paso2_title">Selecciona fecha y horario</h3>
+            <p data-content="servicios.paso2_desc">Desde el perfil del profesional, accede a su sistema de reservas y elige la fecha y hora que mejor se ajuste a tu disponibilidad.</p>
+          </div>
+        </div>
+
+        <div class="tele-step-connector">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="20" height="20">
+            <path d="m9 18 6-6-6-6" />
+          </svg>
+        </div>
+
+        <div class="tele-step">
+          <div class="tele-step-number" data-content="servicios.paso3_num">03</div>
+          <div class="tele-step-content">
+            <h3 data-content="servicios.paso3_title">Confirma tus datos</h3>
+            <p data-content="servicios.paso3_desc">Completa tu información personal, verifica los detalles de la cita y el motivo de consulta antes de continuar.</p>
+          </div>
+        </div>
+
+        <div class="tele-step-connector">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="20" height="20">
+            <path d="m9 18 6-6-6-6" />
+          </svg>
+        </div>
+
+        <div class="tele-step">
+          <div class="tele-step-number" data-content="servicios.paso4_num">04</div>
+          <div class="tele-step-content">
+            <h3 data-content="servicios.paso4_title">Reserva confirmada</h3>
+            <p data-content="servicios.paso4_desc">Finaliza tu reserva y recibirás un correo con todos los detalles de tu consulta. También puedes elegir atención presencial o telemedicina.</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="telemedicina-cta">
+        <a href="equipo-medico.html" class="esp-cta esp-cta--primary">Reservar Telemedicina</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA ORIENTACIÓN -->
+  <section class="orientacion-cta" id="orientacion">
+    <div class="orientacion-container">
+      <div class="orientacion-icon-wrap">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="32" height="32">
+          <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+        </svg>
+      </div>
+      <h2 class="orientacion-title" data-content="servicios.orientacion_title">¿Necesita ayuda para encontrar al especialista adecuado?</h2>
+      <p class="orientacion-desc" data-content="servicios.orientacion_desc">Si tiene dudas sobre qué especialista consultar, estamos para ayudarle. Escríbanos por WhatsApp o llámenos y le orientaremos según lo que necesita.</p>
+      <div class="orientacion-buttons">
+        <a href="https://wa.me/56990418056?text=Hola%2C%20necesito%20orientaci%C3%B3n%20sobre%20qu%C3%A9%20especialista%20consultar" target="_blank" rel="noopener noreferrer" class="orientacion-btn orientacion-btn--wsp">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/>
+          </svg>
+          <span data-content="servicios.orientacion_btn_wsp">Escríbenos por WhatsApp</span>
+        </a>
+        <a href="tel:+56926436045" class="orientacion-btn orientacion-btn--tel">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+          </svg>
+          <span data-content="servicios.orientacion_btn_tel">Llamar al +(569) 2643 6045</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-top-container">
+        <div class="footer-top-cta">
+          <h3 data-content="footer.top_cta_text">Agenda tu hora con nosotros</h3>
+          <a href="equipo-medico.html" class="footer-cta-btn" data-content="footer.top_cta_btn">Reservar Hora</a>
+        </div>
+        <div class="footer-top-contact">
+          <a data-content-href="footer.top_tel_href" href="tel:+56926436045" class="footer-contact-item footer-contact-item--phone">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="20" height="20">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+            </svg>
+            <span data-content="footer.top_tel">+(569) 2643 6045</span>
+          </a>
+          <a href="mailto:ceneachile@gmail.com" class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="20" height="20">
+              <rect x="2" y="4" width="20" height="16" rx="2" />
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+            </svg>
+            <span data-content="footer.top_email">ceneachile@gmail.com</span>
+          </a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Lo+Fontecilla+101,+Las+Condes,+Santiago,+Chile"
+            target="_blank" rel="noopener noreferrer" class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="20" height="20">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            <span data-content="footer.top_ubicacion_label">Ver Ubicación</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-main">
+      <div class="footer-main-container">
+        <div class="footer-col footer-col--brand">
+          <img src="imghome/logo-cenea.png" alt="Cenea" class="footer-logo">
+          <p data-content="footer.brand_desc">Centro de Especialidades Neurológicas Avanzadas. Acompañamos a nuestros pacientes y su familia en todas las
+            etapas de la enfermedad neurológica.</p>
+          <div class="footer-social">
+            <a data-content-href="footer.social_facebook" href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+              </svg></a>
+            <a data-content-href="footer.social_instagram" href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" width="18" height="18">
+                <rect x="2" y="2" width="20" height="20" rx="5" />
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+              </svg></a>
+            <a data-content-href="footer.social_linkedin" href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect x="2" y="9" width="4" height="12" />
+                <circle cx="4" cy="4" r="2" />
+              </svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+            <li><a href="equipo-medico.html">Equipo Médico</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-content="footer.especialidades_title">Especialidades</h4>
+          <ul>
+            <li><a href="servicios.html" data-content="footer.esp_1">Neurología Adultos</a></li>
+            <li><a href="servicios.html" data-content="footer.esp_2">Neurología Infantil</a></li>
+            <li><a href="servicios.html" data-content="footer.esp_3">Neurocirugía</a></li>
+            <li><a href="servicios.html" data-content="footer.esp_4">Epilepsia</a></li>
+            <li><a href="servicios.html" data-content="footer.esp_5">Trastornos del Sueño</a></li>
+            <li><a href="servicios.html" data-content="footer.esp_6">Enfermedad de Parkinson</a></li>
+          </ul>
+        </div>
+        <div class="footer-col footer-col--media">
+          <h4 data-content="footer.contacto_title">Contacto</h4>
+          <p data-content="footer.contacto_direccion">Lo Fontecilla 101, Torre A, Of. 1006<br>Las Condes, Santiago de Chile</p>
+          <p class="footer-telefonos"><a href="tel:+56926436045"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="13" height="13"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg> +(569) 2643 6045</a><a href="https://wa.me/56990418056" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" width="13" height="13"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg> +56 9 9041 8056</a></p>
+          <div class="footer-img">
+            <img src="imghome/neuroinfantil_400x600.jpg" alt="Neurología Infantil - Cenea">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-bottom-container">
+        <p><span data-content="footer.bottom_copy">© 2025 CENEA — Todos los Derechos Reservados</span> | <a href="admin/" style="color: inherit; text-decoration: none; font-size: 0.8em; opacity: 0.7;">Admin</a></p>
+        <div class="footer-payment">
+          <span>Medios de pago:</span>
+          <img src="imghome/medio-de-pago.png" alt="Medios de pago aceptados">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOAT -->
+  <a data-content-href="footer.wsp_href" href="https://wa.me/56990418056?text=Hola%2C%20me%20gustar%C3%ADa%20solicitar%20una%20hora%20de%20atenci%C3%B3n" target="_blank" rel="noopener noreferrer" class="wsp-float" aria-label="Contactar por WhatsApp">
+    <div class="wsp-float__btn">
+      <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+    </div>
+    <span class="wsp-float__tag" data-content="footer.wsp_tag">Contáctenos</span>
+    <div class="wsp-float__info">
+      <span class="wsp-float__label">Contáctenos</span>
+      <span class="wsp-float__number">+(569) 9041 8056</span>
+    </div>
+  </a>
+
+
+  <!-- GSAP + ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+  <script src="js/content-loader.js"></script>
+
+  <!-- Carga dinámica de tarjetas de servicios desde servicios.json -->
+  <script>
+    (function () {
+      var base = '';
+      var scripts = document.getElementsByTagName('script');
+      for (var i = 0; i < scripts.length; i++) {
+        var src = scripts[i].src || '';
+        if (src.indexOf('content-loader.js') !== -1) {
+          base = src.replace('js/content-loader.js', '');
+          break;
+        }
+      }
+
+      var arrowSVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>';
+
+      var defaultIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>';
+
+      // Mapa de iconos Lucide (SVG inline) por nombre de clave
+      var iconMap = {
+        'activity':    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>',
+        'smile':       '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M8 13s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>',
+        'zap':         '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>',
+        'clock':       '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>',
+        'bell':        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>',
+        'refresh-cw':  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>',
+        'heart':       '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>',
+        'sun':         '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>',
+        'users':       '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>',
+        'box':         '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>',
+        'book-open':   '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>',
+        'moon':        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>',
+        'shield':      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>',
+        'clipboard':   '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg>',
+        'tool':        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>',
+        'monitor':     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>',
+        'brain':       '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96-.46 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.44-4.14z"/><path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96-.46 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.44-4.14z"/></svg>',
+        'eye':         '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>',
+        'stethoscope': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"/><path d="M8 15v1a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6v-4"/><circle cx="20" cy="10" r="2"/></svg>',
+        'microscope':  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 18h8"/><path d="M3 22h18"/><path d="M14 22a7 7 0 1 0 0-14h-1"/><path d="M9 14h2"/><path d="M9 12a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2z"/><path d="M12 6V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3"/></svg>',
+        'pill':        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7z"/><line x1="8.5" y1="8.5" x2="15.5" y2="15.5"/></svg>',
+        'wifi':        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>'
+      };
+
+      function getIconSVG(nombre) {
+        return iconMap[nombre] || defaultIcon;
+      }
+
+      function escHtml(str) {
+        return String(str)
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;');
+      }
+
+      fetch(base + 'data/servicios.json?v=' + Date.now())
+        .then(function (r) { return r.json(); })
+        .then(function (servicios) {
+          var grid = document.getElementById('servicios-grid');
+          if (!grid || !servicios || !servicios.length) return;
+
+          // Ordenar por campo "orden"
+          servicios.sort(function (a, b) { return (a.orden || 0) - (b.orden || 0); });
+
+          var html = '';
+          servicios.forEach(function (s) {
+            var highlight = s.destacado ? ' servicio-card--highlight' : '';
+            html += '<div class="servicio-card' + highlight + '">';
+            html += '<div class="servicio-icon">' + getIconSVG(s.icono) + '</div>';
+            html += '<h3 class="servicio-title">' + escHtml(s.titulo) + '</h3>';
+            html += '<p class="servicio-desc">' + escHtml(s.descripcion) + '</p>';
+            html += '<a href="#orientacion" class="servicio-link">Consultar ' + arrowSVG + '</a>';
+            html += '</div>';
+          });
+
+          grid.innerHTML = html;
+        })
+        .catch(function (err) {
+          console.warn('No se pudo cargar servicios.json:', err);
+        });
+    })();
+  </script>
+  <script src="js/integraciones-loader.js"></script>
+  <script src="js/seo-injector.js"></script>
+</body>
+
+</html>

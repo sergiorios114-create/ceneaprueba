@@ -1,0 +1,22 @@
+[
+    {
+        "id": "neurologos",
+        "nombre": "Neurólogos Adultos"
+    },
+    {
+        "id": "neuropediatras",
+        "nombre": "Neuropediatras"
+    },
+    {
+        "id": "especialistas",
+        "nombre": "Médicos Especialistas"
+    },
+    {
+        "id": "terapeutas",
+        "nombre": "Equipo de Terapeutas"
+    },
+    {
+        "id": "telemedicina",
+        "nombre": "Telemedicina"
+    }
+]
